@@ -1,0 +1,10 @@
+{
+		"name": "dirkpostma/atk4-s02e05",
+		"description": "Walkthrough of Agile Toolkit Tutorial Season 2 episode 5, see youtube.com",
+		"license": "GPL-3.0",
+		
+		"require": {
+			"atk4/atk4": "dev-master",
+			"firephp/firephp-core": "dev-master"
+		}
+}
