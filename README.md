@@ -8,10 +8,15 @@ The default setup for Agile Toolkit (4.2.*) has all it's files publicly availabl
 `$curl -s https://getcomposer.org/installer | php`
 * Update packages
 `php composer.phar update`
-* Create symlink
+
+## Note for Windows users
+@@@ NOT TESTED
+This "more secure setup" requires symlinks to be able to access the default Agile Toolkit resources like images, css files etc. How to use symlinks on the Windows platform is described [here][1]. After, you should create the following symlink:
+
 ```
 cd public/atk4
-ln -s ../../vendor/atk4/atk4/templates/ templates
+mklink ../../vendor/atk4/atk4/templates/ templates
 ```
 
 [0]: http://www.composer.org/
+[1]: http://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
