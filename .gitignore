@@ -1,0 +1,6 @@
+.htaccess
+.*swp
+*.bak
+upload
+.DS_Store
+config.php
