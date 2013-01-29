@@ -6,7 +6,7 @@ The default setup for Agile Toolkit (4.2.*) has all it's files publicly availabl
 
 * Clone git project
 
-`git clone git@github.com:dirkpostma/atk4-secure.git`
+`$ git clone git@github.com:dirkpostma/atk4-secure.git`
 
 * Install [Composer] [0]
 
