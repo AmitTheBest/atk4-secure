@@ -6,7 +6,7 @@ The default setup for Agile Toolkit (4.2.*) has all it's files publicly availabl
 
 * Clone git project
 
-   $ git clone git@github.com:dirkpostma/atk4-secure.git
+    $ git clone git@github.com:dirkpostma/atk4-secure.git
 
 * Remove .git folder and init your own project git
 
@@ -19,11 +19,11 @@ git commit -m "Initial Commit"
 
 * Install [Composer] [0]
 
-   $ curl -s https://getcomposer.org/installer | php
+    $ curl -s https://getcomposer.org/installer | php
 
 * Update packages
 
-   $ php composer.phar update
+    $ php composer.phar update
 
 ## Windows users
 This Agile Toolkit setup requires symlinks to be able to access the default Agile Toolkit resources like images, css files etc. How to use symlinks on the Windows platform is described [here][1]. After, you should create the following symlink:
