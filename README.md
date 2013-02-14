@@ -8,6 +8,15 @@ The default setup for Agile Toolkit (4.2.*) has all it's files publicly availabl
 
 `$ git clone git@github.com:dirkpostma/atk4-secure.git`
 
+* Remove .git folder and init your own project git
+
+```
+rm -rf .git
+git init
+git add .
+git commit -m "Initial Commit"
+```
+
 * Install [Composer] [0]
 
 `$ curl -s https://getcomposer.org/installer | php`
