@@ -1,7 +1,7 @@
 <?php
-	class Frontend extends ApiFrontend {
-		function init()
-		{
-			parent::init();
-		}
-	}
+class Frontend extends ApiFrontend {
+    function init()
+    {
+        parent::init();
+    }
+}
