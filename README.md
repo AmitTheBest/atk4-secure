@@ -1,16 +1,13 @@
-# Secure Agile Toolkit setup
+# Your Agile Toolkit Project
 
-The default setup for Agile Toolkit (4.2.*) has all it's files publicly available in webroot. There are number of reasons why this is insecure. This project shows a default setup where the system files are removed from webroot. It also shows how to make use of the PHP dependency manager [Composer] [0].
+Welcome to your new Agile Toolkit project. Modify this file to contain more information about your project.
 
 ## Install
 
-* Clone git project
+Generic help on installing Agile-Toolkit based projects can be found
+ 
+ * http://agiletoolkit.org/doc/install/project
 
-```
-$ git clone git@github.com:dirkpostma/atk4-secure.git
-```
-
-* Remove .git folder and init your own project git
 
 ```
 rm -rf .git
