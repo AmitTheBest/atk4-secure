@@ -51,6 +51,14 @@ class RootedFrontend extends Frontend{
         return $this->locateURL('public',$path);
     }
 
+    function getConfig($path, $default_value = undefined){
+        if(is_null($this->config)){
+            $this->readConfig('../config-default.php');
+            $this->readConfig('../config.php');
+        }
+        return parent::getConfig($path,$default_value);
+    }
+
 
 
 
