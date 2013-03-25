@@ -32,7 +32,7 @@ class RootedFrontend extends Frontend{
         ;
 
         // agile toolkit relies on some images
-        $this->public_atk4 = $this->pathfinder->addLocation('atk4-public',array(
+        $this->public_atk4 = $this->pathfinder->addLocation('atk4',array(
             'js'=>'js',
             'template'=>'.',  // backward compatibility with < ?template? > for images
             'public'=>'.',    // use with new < ?public? > tag in your template
@@ -67,7 +67,7 @@ class RootedFrontend extends Frontend{
 
         // Now $this->pm is initialized, we can fix the BaseURL for public locations
         $this->public_location->setBaseURL($this->pm->base_path);
-        $this->public_atk4->setBaseURL($this->pm->base_path.'/atk4');
+        $this->public_atk4->setBaseURL($this->pm->base_path.'atk4');
     }
 
 
