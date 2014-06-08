@@ -7,7 +7,7 @@
                 ]
         }
     },
-		"require": {
-        "atk4/atk4": "4.3.*@dev",
-		}
+      "require": {
+        "atk4/atk4": "4.3.*@dev"
+      }
 }
