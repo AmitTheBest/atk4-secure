@@ -4,6 +4,6 @@ if(function_exists('xdebug_enable')){
 }
 chdir('..');
 require_once'vendor/autoload.php';
-require_once 'lib/Frontend.php';
-$api=new Frontend('front');
+require_once 'lib/Admin.php';
+$api=new Admin('admin');
 $api->main();
